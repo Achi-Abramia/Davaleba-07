@@ -3,6 +3,19 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+  body {
+    font-family: "Helvetica-regular";
+    font-style: normal;
+  }
+
+  .more-text,
+  .slider-box-up .slider-text,
+  header {
+    font-family: "helvetica-bold";
+    font-weight: bold;
+    font-style: normal;
+  }
   
   header {
     background-color: blue;
@@ -10,7 +23,6 @@
   }
   
   header h3 {
-    font-family: "Helvetica-bold";
     color: #ffffff;
     padding-top: 60px;
     padding-left: 150px;
@@ -51,7 +63,7 @@
   }
   
   .slider-image {
-    position: relatiove;
+    position: relative;
   }
   
   .slider-text {
@@ -73,4 +85,3 @@
     font-size: 18px;
     line-height: 23px;
   }
-  
